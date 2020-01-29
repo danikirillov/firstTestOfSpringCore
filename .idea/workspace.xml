@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="27109e69-90e8-4e7b-95f5-391c97b372c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/danikirillov/TestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/danikirillov/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/danikirillov/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -32,7 +37,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1X2oOEWrjY9wO1RhA3gT4Imlh4j" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,6 +52,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.yandex.danikirillov" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -77,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580253515077</updated>
       <workItem from="1580253521300" duration="2161000" />
+      <workItem from="1580256876752" duration="1011000" />
     </task>
     <servers />
   </component>
@@ -88,25 +101,29 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="-71" y="104" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1580254087670" />
-    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1580254066734">
+    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1580257797647">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1580254066734" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1580255693050">
+    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1580257797647" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1580257900396">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580255693050" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1580255693050">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580257900396" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1580257900395">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580255693050" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1580255693050">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580257900395" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1580257900395">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580255693050" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1580255693050">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580257900395" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1580257900395">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580255693050" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580257900395" />
+    <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1580256918253">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1580256918253" />
   </component>
 </project>
